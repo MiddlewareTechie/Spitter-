@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<response>
+	<testId>X456</testId>
+	<operation>
+		<action>sum</action>
+		<valueA>10</valueA>
+		<valueB>5</valueB>
+	</operation>
+	<operation>
+		<action>sum</action>
+		<valueA>20</valueA>
+		<valueB>5</valueB>
+	</operation>
+	<operation>
+		<action>multiply</action>
+		<valueA>30</valueA>
+		<valueB>5</valueB>
+	</operation>
+	<operation>
+		<action>multiply</action>
+		<valueA>40</valueA>
+		<valueB>5</valueB>
+	</operation>
+	<operation>
+		<action>multiply</action>
+		<valueA>50</valueA>
+		<valueB>5</valueB>
+	</operation>
+</response>
