@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<response>
-	<testId>X456</testId>
-	<operation>
-		<action>sum</action>
-		<valueA>10</valueA>
-		<valueB>5</valueB>
-	</operation>
-	<operation>
-		<action>sum</action>
-		<valueA>20</valueA>
-		<valueB>5</valueB>
-	</operation>
-	<operation>
-		<action>multiply</action>
-		<valueA>30</valueA>
-		<valueB>5</valueB>
-	</operation>
-	<operation>
-		<action>multiply</action>
-		<valueA>40</valueA>
-		<valueB>5</valueB>
-	</operation>
-	<operation>
-		<action>multiply</action>
-		<valueA>50</valueA>
-		<valueB>5</valueB>
-	</operation>
-</response>
+<dataset>
+	<sessionid>S789</sessionid>
+	<record>
+		<action>create</action>
+		<value1>50</value1>
+		<value2>10</value2>
+	</record>
+	<record>
+		<action>update</action>
+		<value1>75</value1>
+		<value2>25</value2>
+	</record>
+	<record>
+		<action>delete</action>
+		<value1>120</value1>
+		<value2>60</value2>
+	</record>
+	<record>
+		<action>retrieve</action>
+		<value1>90</value1>
+		<value2>30</value2>
+	</record>
+	<record>
+		<action>archive</action>
+		<value1>110</value1>
+		<value2>70</value2>
+	</record>
+</dataset>
