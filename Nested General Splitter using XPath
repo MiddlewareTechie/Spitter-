@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<operation>
+		<action>create</action>
+		<element>
+			<value1>10</value1>
+			<value2>5</value2>
+		</element>
+		<element>
+			<value1>20</value1>
+			<value2>5</value2>
+		</element>
+	</operation>
+	<operation>
+		<action>update</action>
+		<element>
+			<value1>30</value1>
+			<value2>10</value2>
+		</element>
+		<element>
+			<value1>40</value1>
+			<value2>10</value2>
+		</element>
+		<element>
+			<value1>50</value1>
+			<value2>10</value2>
+		</element>
+	</operation>
+</root>
