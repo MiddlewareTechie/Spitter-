@@ -1,0 +1,41 @@
+Namespace:
+xmlns:a1=http://r-dummy.com
+xmlns:b1=http://x-dummy.com
+xmlns:c1=http://y-dummy.com
+
+------------------------------------------------------------------------------------
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="http://r-dummy.com">
+	<section>
+		<group>
+			<entry>
+				<title>alpha</title>
+			</entry>
+			<entry>
+				<title>beta</title>
+			</entry>
+			<entry>
+				<title>gamma</title>
+			</entry>
+		</group>
+	</section>
+</catalog>
+
+------------------------------------------------------------------------------------
+
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns:a="http://x-dummy.com" xmlns:b="http://y-dummy.com">
+	<a:section>
+		<b:group>
+			<entry>
+				<title>alpha</title>
+			</entry>
+			<entry>
+				<title>beta</title>
+			</entry>
+			<entry>
+				<title>gamma</title>
+			</entry>
+		</b:group>
+	</a:section>
+</catalog>
